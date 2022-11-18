@@ -73,10 +73,3 @@ nav {
     color: white;
     text-shadow: 5px 5px 0 var(--black1);
 }
-
-h1 {
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 40px;
-    color: var(--color1);
-    text-shadow: 5px 5px 0 var(--black1);
-}
