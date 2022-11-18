@@ -1,9 +1,24 @@
+:root {
+    --color1: #F25A70;
+    --color2: #F2CD5D;
+    --color3: #2E5EAA;
+    --color4: #16001E;
+    --color5: #C7EDE4;
+    --black1: #000;
+    --black2: #3A4042;
+    --black3: #828282;
+    --status-error: #BA1F33;
+    --status-warn: #CEB02A;
+    --status-success: #62C370;
+}
+
 header {
-    background-color: #7C5E99;
-    border-bottom: 10px solid #000;
+    background-color: var(--color3);
+    border-bottom: 10px solid var(--black1);
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 a {
@@ -15,11 +30,16 @@ a {
     font-weight: 500;
     text-decoration: none;
     margin-right: 30px;
+    transition: 0.6s all
+}
+
+a:hover {
+    transform: rotate(10deg) scale(1.2);
 }
 
 a::before {
     content: "";
-    background-color: #F25A70;
+    background-color: var(--color1);
     width: 10px;
     height: 10px;
     margin-right: 10px;
@@ -31,17 +51,32 @@ nav {
 
 #buttonCV {
     display: inline-block;
-    background-color: #F25A70;
+    background-color: var(--color1);
     height: 60px;
     padding-left: 20px;
     padding-right: 20px;
     line-height: 60px;
-    box-shadow: 5px 5px 0 black;
+    box-shadow: 5px 5px 0 var(--black1);
     margin-right: 0;
+    transition: 0.6s all
 }
 
 #buttonCV:hover {
-    background-color: black;
-    color: #F25A70;
-    transition: 0.6s all
+    background-color: var(--black1);
+    color: var(--color1);
+    transform: scale(1.1);
+    box-shadow: 5px 5px 0 var(--color1);
+}
+
+#logo {
+    font-family: 'Press Start 2P', sans-serif;
+    color: white;
+    text-shadow: 5px 5px 0 var(--black1);
+}
+
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    color: var(--color1);
+    text-shadow: 5px 5px 0 var(--black1);
 }
