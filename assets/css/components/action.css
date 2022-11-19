@@ -1,0 +1,22 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: 0.6s all;
+    color: white;
+    font-size: 20px;
+}
+
+.action:hover {
+    transform: rotate(10deg) scale(1.2);
+}
+
+.action::before {
+    content: "";
+    background-color: var(--color1);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
