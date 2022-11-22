@@ -1,0 +1,20 @@
+.skill-tech {
+    font-family: 'Press Start 2P', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.skill-tech .title {
+    color: white;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.skill-tech .icon {
+    margin-right: 25px;
+}
+
+.skill-tech .specification {
+    display: flex;
+    flex-direction: column;
+}
