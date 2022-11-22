@@ -2,7 +2,6 @@
     -webkit-appearance: none;
     height: 40px;
     box-sizing: border-box;
-    width: 320px;
 }
 
 ::-webkit-progress-bar{
