@@ -1,0 +1,17 @@
+.main-section.-first {
+    background-color: var(--color1);
+    border-bottom: 10px solid var(--color3);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/* .section .main-title {
+    margin-bottom: 60px;
+} */
+
+.main-section.-second {
+    background-color: var(--black1);
+    border-bottom: 10px solid var(--color1);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}

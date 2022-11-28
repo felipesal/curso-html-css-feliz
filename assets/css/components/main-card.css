@@ -1,0 +1,28 @@
+.main-card {
+    width: 280px;
+    height: 280px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 0px #fff;
+    box-sizing: border-box;
+}
+
+.main-card.-first {
+    background-color: var(--color3);
+}
+
+.main-card.-second {
+    background-color: var(--color2);
+}
+
+.main-card.-third {
+    background-color: var(--color1);
+}
+
+.main-card .img-projects {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

@@ -3,3 +3,7 @@
     color: white;
     text-shadow: 5px 5px 0 var(--black1);
 }
+
+.logo.-bigger {
+    font-size: 70px;
+}
