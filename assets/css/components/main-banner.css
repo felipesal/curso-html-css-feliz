@@ -15,10 +15,6 @@
     width: 630px;
 }
 
-.main-banner .box {
-    margin-bottom: 40px;
-}
-
 .main-banner .navigation {
     display: flex;
     justify-content: space-around;

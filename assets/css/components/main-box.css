@@ -1,11 +1,12 @@
-.box {
+.main-box {
     display: inline-block;
     background-color: var(--black2);
     box-shadow: 10px 10px 0 var(--black1);
     text-align: center;
     padding: 42px 44px;
+    margin-bottom: 40px;
 }
 
-.box .title {
+.main-box .title {
     margin-bottom: 28px;
 }
