@@ -15,3 +15,10 @@
     padding-top: 50px;
     padding-bottom: 100px;
 }
+
+.main-section.-third {
+    background-color: var(--color3);
+    border-bottom: 10px solid var(--black1);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
