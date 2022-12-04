@@ -3,6 +3,8 @@
     width: 50px;
     background-color: var(--color1);
     box-shadow: 5px 5px 0 var(--black1);
+    transform: translateY(35px);
+    margin: 20px;
 }
 
 .button-arrow::before {
